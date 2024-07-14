@@ -5,3 +5,33 @@
     font-weight: 400;
     font-style: normal;
   }
+/* color based */
+
+.dark-2{
+    color: #424242;
+}
+/* nav style */
+.display-flex{
+    display: flex;
+}
+.nav-items{
+    text-decoration: none;
+}
+.items{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+}
+.navber{
+  justify-content: space-between;
+}
+.bg-color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.navber, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
