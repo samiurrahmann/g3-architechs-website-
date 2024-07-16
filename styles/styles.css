@@ -121,6 +121,44 @@ margin-top: 130px;
     font-weight: 700;
 }
 
+/* features-section-style */
+.features{
+    gap: 146px;
+}
+#features-section-title{
+    border-left: 5px solid  rgba(255, 144, 14, 1);
+    padding-left: 20px;
+
+}
+.features-card .features-card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+}
+.features-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+
+#badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+#badge-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+
 /* some facts style */
 .facts-card{
     border: 1px solid rgba(255, 144, 14, 1) ;
@@ -154,6 +192,10 @@ margin-top: 130px;
     max-width: 540px;
 }
 
+.features-architect img{
+    width: 100%;
+}
+
 /* sponspors-style */
 
 .sponspors-info{
@@ -175,7 +217,9 @@ margin-top: 130px;
 
 @media screen and (max-width:576px) {
     .navber, .nav-link,
-    .teams{
+    .teams,
+    .features
+    {
         flex-direction: column;
     }
    .teams-image-contener,
@@ -193,5 +237,10 @@ margin-top: 130px;
     .sponspors-companys{
         justify-items: center;
         gap: 50px;
+    }
+    #badge{
+        margin-top: 20px;
+        margin-left: 20px;
+      
     }
 }
