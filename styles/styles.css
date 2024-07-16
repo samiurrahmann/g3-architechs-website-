@@ -212,7 +212,20 @@ margin-top: 130px;
 .sponspors-companys img{
     filter: grayscale(100%);
 }
+ /* footer style */
 
+ footer{
+    margin-top: 130px;
+    justify-content: center;
+    text-align: center;   
+ }
+
+.footer-text{
+    width: 1440;
+    height: 100;
+    font-size: 20px;
+    
+}
 /* responsive media quary */
 
 @media screen and (max-width:576px) {
@@ -242,5 +255,11 @@ margin-top: 130px;
         margin-top: 20px;
         margin-left: 20px;
       
+    }
+    .footer{
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+
     }
 }
